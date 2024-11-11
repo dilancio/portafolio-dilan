@@ -89,5 +89,8 @@ const intereses = ref([
         padding: 0;
 
     }
+    .intereses-contenedor {
+        padding: 1em; 
+}
 }
 </style>

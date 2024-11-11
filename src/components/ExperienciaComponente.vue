@@ -72,5 +72,13 @@ const experiencias = ref([
 .parrafo{
     margin-bottom: 2em;
 }
+@media screen and (max-width:768px) {
+    .experiencias{
+    flex-flow: row wrap;
 
+}
+    .card{
+        width: 100%;
+    }
+}
 </style>
